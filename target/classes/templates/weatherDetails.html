@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<title>Weather Data</title>
+  	<link rel="stylesheet" type="text/css" href="weather.css">
+</head>
+<body>
+	<h2>Weather Information</h2>
+	<div class="div">
+		<a  href="#" th:href="@{/weather}" style="text-decoration: none"class="link">WEATHER DATA</a>
+	</div>
+    
+    <div class="div1">
+		<table id="table" style="width:100%">
+			<tr>
+  				<th>City</th>
+    			<th>MinimumTemperature</th>
+    			<th>MaximumTemperature</th> 
+    			<th>Weather</th> 
+    		</tr>	
+			<tr th:each="weather,iterStat : ${weatherData}" }>
+				<td><span th:text="${weather.getName()}"></span></td>
+				<td><span th:text="${weather.getMinTemp()}"></span></td>
+				<td><span th:text="${weather.getMaxTemp()}"></span></td>
+				<td><span th:text="${weather.getWeatherDescription()}"></span></td>
+			
+			</tr>
+		</table>
+	</div> 
+</body>
+</html>

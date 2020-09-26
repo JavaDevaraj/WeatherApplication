@@ -1,0 +1,40 @@
+.div {
+    background: #b0d27a;
+    padding: 10px 20px;
+    display: block;
+    margin: 10px;
+  
+}
+
+.div1 {
+	padding: 10px 20px;
+}
+
+.link{
+ color: white;
+ padding: 10px 20px;
+}
+
+.link:hover{
+	color:black;
+}
+
+.link:active{
+ background:grey;
+}
+
+#table {
+    border-collapse: collapse;
+}
+
+#table td, #table th {
+    border: 1px solid black;
+    padding: 5px;
+   
+}
+
+#table th {
+    text-align: left;
+    background-color: #b0d27a;
+    color: white;
+}

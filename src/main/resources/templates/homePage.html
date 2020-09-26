@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+ <head>
+        <title>Weather Data</title>
+        <link rel="stylesheet" type="text/css" href="weather.css">
+ </head>
+ <body>
+ 	<h2>Weather Information</h2>
+		<div class="div">     
+            <a  href="#" th:href="@{/weather}" style="text-decoration: none"class="link">WEATHER DATA</a>          
+        </div>
+        
+        <form action="weather" method="post">
+            <div>
+                <label><b>Enter the city name to check the weather Information</b></label>    
+                <input type="text" name="city">
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </body>
+</html>
