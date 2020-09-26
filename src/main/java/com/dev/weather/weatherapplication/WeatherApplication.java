@@ -18,7 +18,7 @@ public class WeatherApplication
 {
     public static void main( String[] args )
     {
-    	System.setProperty("spring.config.name", "wealthapplication");
+    	System.setProperty("spring.config.name", "weatherapplication");
     	SpringApplication.run(WeatherApplication.class, args);
     	
     }

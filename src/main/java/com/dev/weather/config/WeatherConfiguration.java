@@ -16,7 +16,7 @@ import com.dev.weather.model.WeatherUrl;
  */
 
 @Configuration
-@PropertySource("classpath:wealthapplication.yml")
+@PropertySource("classpath:weatherapplication.yml")
 @ComponentScan
 public class WeatherConfiguration {
 	

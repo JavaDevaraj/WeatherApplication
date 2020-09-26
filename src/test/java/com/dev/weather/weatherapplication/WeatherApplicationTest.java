@@ -24,9 +24,9 @@ public class WeatherApplicationTest {
 	public void testWeatherAPI() {
 	    UriComponents uriComponents = UriComponentsBuilder.newInstance()
 	      .scheme("http").host("api.openweathermap.org/data/2.5/weather")
-	      .path("").query("q={keyword}&appid={appid}").buildAndExpand("chicago","1c9770dfaf3b327dd03510a4c07b7f2d");
+	      .path("").query("q={keyword}&appid={appid}").buildAndExpand("chicago","ba2e26157dd2d87c9ac4ff1a959d8e8c");
 	 
-	     assertEquals("http://api.openweathermap.org/data/2.5/weather?q=chicago&appid=1c9770dfaf3b327dd03510a4c07b7f2d", uriComponents.toUriString());
+	     assertEquals("http://api.openweathermap.org/data/2.5/weather?q=chicago&appid=ba2e26157dd2d87c9ac4ff1a959d8e8c", uriComponents.toUriString());
 
 	}
 }
