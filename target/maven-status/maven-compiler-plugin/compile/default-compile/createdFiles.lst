@@ -1,8 +1,0 @@
-com\dev\weather\controller\ErrorHandleController.class
-com\dev\weather\weatherapplication\WeatherApplication.class
-com\dev\weather\model\City.class
-com\dev\weather\config\WeatherConfiguration.class
-com\dev\weather\config\RestTemplateConfig.class
-com\dev\weather\controller\WeatherController.class
-com\dev\weather\model\Weather.class
-com\dev\weather\model\WeatherUrl.class

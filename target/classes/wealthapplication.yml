@@ -1,6 +1,0 @@
-server:
-  port: 8090
-  
-weather:
-  url: api.openweathermap.org/data/2.5/weather
-  apikey: ba2e26157dd2d87c9ac4ff1a959d8e8c
